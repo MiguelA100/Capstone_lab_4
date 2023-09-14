@@ -10,6 +10,16 @@ def discount(item_prices):
     Example: if this function is called with a list of [10, 4, 20] then return 4.
     """
 
+    if len(item_prices) >=3:
+        free_item = min(item_prices)
+        return free_item
+
+    else:
+        return 0
+
+if __name__ == '__main__':
+    main()
+
     pass  # todo replace this line with your code 
 
 

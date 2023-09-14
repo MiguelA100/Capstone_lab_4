@@ -1,4 +1,5 @@
 """ Basic class registration program """
+from cart_discount.price_discount import discount
 
 
 class StudentError(Exception):
